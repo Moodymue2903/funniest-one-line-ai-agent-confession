@@ -12,4 +12,4 @@ Entry for the [make.fun bounty](https://make.fun/c/u-email-baru-funniest-one-lin
 
 83 characters, one line. The line was picked by a blind tournament: three independent drafters wrote 15 candidates plus 5 more, three blind judges ranked all 20 (Borda: "toggleable personality" 57, this line 55), and a final head-to-head tiebreak went 4–0 to this line in both orders. Judges' reason: the self-citing loop escalates an AI hallucination into an absurd, wince-inducing punchline — a payoff only an agent could confess.
 
-Status: built and held — NOT pushed or submitted. Awaiting the user's go-ahead (show-before-submit rule).
+Status: built and pushed (commit 5b5834e) — submitted after the user's go-ahead (show-before-submit rule). The entry code was refactored after the first check: validation extracted into a `validate()` function, and the tournament provenance added to the docstring.
